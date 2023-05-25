@@ -1,0 +1,62 @@
+.container {
+    width: 600px;
+    border: 1px solid rgb(10, 2, 2);
+    background-color: rgb(8, 7, 7);
+    margin: 10px auto;
+}
+
+table {
+    width: 600px;
+}
+
+td {
+    width: 25%;
+}
+
+input {
+    width: 96%;
+    height: 60px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 146px;
+    height: 80px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+
+@media (max-width:500px) {
+    .container {
+        width: 350px;
+    }
+
+    table {
+        width: 350px;
+    }
+    button {
+        width:83.7px;
+        height: 80px;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        background-color: grey;
+    }
+    input {
+        width: 94.5%;
+        height: 60px;
+        font-size: 25px;
+        padding: 10px;
+        background-color: rgb(9, 7, 7);
+        color: white;
+        border: none;
+        outline: none;
+    }
+}
